@@ -1,0 +1,15 @@
+import pandas as pd
+import os
+
+configfile: "../config/config.yml"
+
+SRR_ID, = glob_wildcards(config["bam_dir"]+"{SRR_ID}.Aligned.sortedByCoord.out.bam")
+
+rule all:
+    input:
+        Focus = config["results_dir"]+'annotation/hg38_Denovo_Ensembl_RefSeq_Filt_Focus_300.gtf'
+include: "rules/coverage.smk"
+include: "rules/annot.smk"
+include: "rules/apa.smk"
+include: "rules/identify_PAS.smk"
+include: "rules/quant.smk"

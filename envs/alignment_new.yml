@@ -1,0 +1,9 @@
+name: alignment
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - star
+  - bedtools
+  - samtools

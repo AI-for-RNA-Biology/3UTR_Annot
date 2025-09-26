@@ -1,0 +1,20 @@
+#Input Paths
+bam_dir:
+
+#Annotations
+ref_fasta: data/GRCh38/Homo_sapiens.GRCh38.dna.primary_assembly.fa
+ref_gtf: data/GRCh38/Homo_sapiens.GRCh38.110.gtf
+ref_annot: data/GRCh38/GRanges_human_ensembl_v110.RData
+rpm: data/GRCh38/rpm/GRCh38_rpm
+PAS_motif: data/PAS/PAS_paDB_v2.txt
+polyA_DB: data/PAS/PolyADB_human_hg38.gtf
+polyA_Site:  data/PAS/PolyASite_human_hg38.gtf
+polyA_Models: data/PAS/putative_polya_sites.gtf
+
+utr_refseq: data/GRCh38/GRanges_UTR3_human_RefSeq.RData
+e75p_RefSeq: data/hg38/RefSeq/GRCh38_latest_genomic.gtf
+assembly_report: data/hg38/RefSeq/GRCh38_latest_assembly_report.txt
+
+
+#Output Paths
+results_dir: 
