@@ -49,7 +49,7 @@ Path to input files are specified in the [config.yml](../config/config.yml) file
 Path to directory that contains bam files. The defauly suffix is ".Aligned.sortedByCoord.out.bam", which is produced by STAR. This should be modified if needed. 
 
 ### Annotation Files
-The required enseml annotation files for human (GRCh38) are stored on Zenodo ([https://doi.org/10.5281/zenodo.17086993](https://doi.org/10.5281/zenodo.17086993)) and can be placed in the [./workflow/data/)](./workflow/data/) directory. 
+The required enseml annotation files for human (GRCh38) are stored on Zenodo ([https://doi.org/10.5281/zenodo.19695412](https://doi.org/10.5281/zenodo.19695412)) and can be placed in the [./workflow/data/)](./workflow/data/) directory. 
 For other species, please create the relevant annotation files. 
 
 ### Output Directory
