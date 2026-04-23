@@ -82,9 +82,9 @@ rule filter_UTR_gene:
         polyA_DB=config['polyA_DB'],
         PolyA_Site=config['polyA_Site'],
         PolyA_Models=config['polyA_Models'],
-        utr_refseq: config["utr_refseq"],
-        e75p_RefSeq: config["e75p_RefSeq"],
-        assembly_report: config["assembly_report"]
+        utr_refseq=config["utr_refseq"],
+        e75p_RefSeq=config["e75p_RefSeq"],
+        assembly_report=config["assembly_report"]
     output:
         Focus = config["results_dir"]+'annotation/hg38_Denovo_Ensembl_RefSeq_Filt_Focus_300.gtf'
     conda:
